@@ -1,4 +1,0 @@
-demo:Demo Page Title
-cat/Input:Input
-cat/Files:Files
-index:Index

@@ -1,3 +1,0 @@
-#+NAVIGATION
-#+TITLE
-#+PAGES
