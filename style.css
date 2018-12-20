@@ -122,8 +122,9 @@ code {
 	border-radius: 3px;
 	font-size: 85%;
 	margin: 0;
-	padding: .2em .4em;
+	padding: .1em .2em;
 	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+	white-space: nowrap;
 }
 
 table {

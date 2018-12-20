@@ -1,8 +1,9 @@
 #+NAVIGATION
 #+TITLE
-Copy data between arrays or strings
-** Syntax
-+ {Copy data between arrays or strings:
++ Copy data between arrays or strings
++ Read DATA into an array
+
+** Copy data between arrays or strings
 ``` sbsyntax
 COPY dest_array [, dest_start%], source_array [[, source_start%], source_length%]
 ```
@@ -11,8 +12,14 @@ COPY dest_array [, dest_start%], source_array [[, source_start%], source_length%
 | `dest_start%`    | starting position in dest_array                |
 | `source_array`   | array or string to copy *from*                 |
 | `source_start%`  | position in source_array to start copying from |
-| `source_length%` | number of items to copy                        |}
-+ {Read data into an array:
+| `source_length%` | number of items to copy                        |
+``` smilebasic
+DIM A[10]
+DIM B[0]
+COPY B,A 'copy data from A to B
+?LEN(B) '10
+```
+** Read data into an array
 ``` sbsyntax
 COPY dest_array[] [, dest_start%], source_label$ [, source_length%]
 ```
@@ -20,16 +27,7 @@ COPY dest_array[] [, dest_start%], source_label$ [, source_length%]
 | `dest_array[]`   | array to copy to. will be extended if shorter than the copied data |
 | `dest_start%`    | starting position in dest_array |
 | `source_label$`  | `DATA` label to copy from       |
-| `source_length%` | number of items to copy         |}
-** Examples
-Copy data between arrays
-``` smilebasic
-DIM A[10]
-DIM B[0]
-COPY B,A 'copy data from A to B
-?LEN(B) '10
-```
-Read data into an array
+| `source_length%` | number of items to copy         |
 ``` smilebasic
 DIM A[3]
 COPY A,@TEST
