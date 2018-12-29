@@ -7,6 +7,7 @@ DTREAD [date$] OUT year%, month%, day% [, weekday%]
 ```
 |*Input|Description|
 |`date$`|A date string, in the form `YYYY/MM/DD`. If omitted, [[DATE$]] (the current date) is used.
+Numbers must be padded with `0`s.
 If the weekday is being calculated, the date must be valid and not earlier than 1753.
 Otherwise, any numbers can be used.|
 
