@@ -1,3 +1,5 @@
+#+NAVIGATION
+#+TITLE
 Get the current date, or read a date string
 * Syntax
 ``` sbsyntax
