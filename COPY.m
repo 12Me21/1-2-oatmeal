@@ -3,6 +3,9 @@
 + Copy data between arrays or strings
 + Read DATA into an array
 
+[[BUTTON][BUTTON()]]
+[[BUTTON]]
+
 ** Copy data between arrays or strings
 ``` sbsyntax
 COPY dest [, dest_start%], source [[, source_start%], source_length%]

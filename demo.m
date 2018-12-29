@@ -56,6 +56,8 @@ This will insert that character directly into the output without it being parsed
 `\\` -> \\
 `\``` -> \`
 
+[[BUTTON][BUTTON()]]
+
 ** Comments
 `# comment` (must begin at the start of a line)
 
