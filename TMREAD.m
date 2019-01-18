@@ -24,3 +24,4 @@ TMREAD "99:99:99" OUT H,M,S ' returns 99,99,99
 + [[DTREAD]]
 + [[TIME$]]
 + [[MILLISEC]]
++ [[MAINCNT]]
