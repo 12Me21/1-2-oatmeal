@@ -14,7 +14,7 @@ ABS number OUT absolute_value
 ```smilebasic
 PRINT ABS(10) '10
 PRINT ABS(-10) '10
-PRINT ABS(-1.5) '10
+PRINT ABS(-1.5) '1.5
 ```
 ** See also
 + [[SGN]]
