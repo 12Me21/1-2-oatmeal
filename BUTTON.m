@@ -33,11 +33,11 @@ BUTTON [[system%,] mode%] OUT buttons%
 ** Examples
 *** Detecting button presses
 ```smilebasic
-IF BUTTON() AND #A THEN PRINT "A is pressed"
+IF BUTTON() AND #A THEN PRINT "A is pwessed"
 
-IF BUTTON() AND (#X OR #Y) THEN PRINT "X or Y is pressed"
+IF BUTTON() AND (#X OR #Y) THEN PRINT "X ow Y is pwessed"
 
-IF BUTTON() AND (#L AND #R) THEN PRINT "L and R are pressed"
+IF BUTTON() AND (#L AND #R) THEN PRINT "L and R are pwessed"
 ```
 *** You can't say it's only a half
 ```smilebasic
@@ -46,7 +46,7 @@ WHILE 1
  IF BUTTON(2) AND #A THEN INC A_PRESSES,0.5
  IF BUTTON(3) AND #A THEN A_PRESSES = CEIL(A_PRESSES)
  
- PRINT "A presses: ";A_PRESSES
+ PRINT "A pwesses: ";A_PRESSES
 WEND
 ```
 ** See also
