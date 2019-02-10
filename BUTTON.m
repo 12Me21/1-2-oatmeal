@@ -37,7 +37,7 @@ IF BUTTON() AND #A THEN PRINT "A is pwessed"
 
 IF BUTTON() AND (#X OR #Y) THEN PRINT "X ow Y is pwessed"
 
-IF BUTTON() AND (#L AND #R) THEN PRINT "L and R are pwessed"
+IF BUTTON() AND (#L AND #R) THEN PRINT "L and R awe pwessed"
 ```
 *** You can't say it's only a half
 ```smilebasic
