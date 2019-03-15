@@ -5,63 +5,63 @@ This is a list of constants available in SmileBASIC as of version 3.6.0.
 ** Console Text Color
 Constants for the console text color. To be used in conjuction with [[COLOR]].
 |* Constant Name | Color     | Value |
-| #TBLACK       | Black     |     1 |
-| #TBLUE        | Blue      |     9 |
-| #TCYAN        | Cyan      |    13 |
-| #TGRAY        | Gray      |    14 |
-| #TLIME        | Lime      |     5 |
-| #TMAGENTA     | Magenta   |    11 |
-| #TMAROON      | Maroon    |     2 |
-| #TNAVY        | Navy Blue |     8 |
-| #TOLIVE       | Olive     |     6 |
-| #TPURPLE      | Purple    |    10 |
-| #TRED         | Red       |     3 |
-| #TTEAL        | Teal      |    12 |
-| #TWHITE       | White     |    15 |
-| #TYELLOW      | Yellow    |     7 |
+| `#TBLACK`       | [[http://kland.smilebasicsource.com/i/ebtjt.png]] |     1 |
+| `#TMAROON`      | [[http://kland.smilebasicsource.com/i/qikqw.png]] |     2 |
+| `#TRED`         | [[http://kland.smilebasicsource.com/i/gjfzn.png]] |     3 |
+| `#TGREEN`       | [[http://kland.smilebasicsource.com/i/djbuf.png]] |     4 |
+| `#TLIME`        | [[http://kland.smilebasicsource.com/i/fstiy.png]] |     5 |
+| `#TOLIVE`       | [[http://kland.smilebasicsource.com/i/jgksb.png]] |     6 |
+| `#TYELLOW`      | [[http://kland.smilebasicsource.com/i/jmzug.png]] |     7 |
+| `#TNAVY`        | [[http://kland.smilebasicsource.com/i/ltnfm.png]] |     8 |
+| `#TBLUE`        | [[http://kland.smilebasicsource.com/i/xtyru.png]] |     9 |
+| `#TPURPLE`      | [[http://kland.smilebasicsource.com/i/vbrvn.png]] |    10 |
+| `#TMAGENTA`     | [[http://kland.smilebasicsource.com/i/czbfc.png]] |    11 |
+| `#TTEAL`        | [[http://kland.smilebasicsource.com/i/xcfgj.png]] |    12 |
+| `#TCYAN`        | [[http://kland.smilebasicsource.com/i/wyila.png]] |    13 |
+| `#TGRAY`        | [[http://kland.smilebasicsource.com/i/exeah.png]] |    14 |
+| `#TWHITE`       | [[http://kland.smilebasicsource.com/i/nguyp.png]] |    15 |
 ** Graphics Color
 These are constants for onscreen graphics for SmileBASIC. These can be explicitly set in methods like [[GCOLOR]].
 |* Constant Name | Color       | RGB Value          | Real Value |
-| #AQUA         | Aqua        | RGB(0, 248, 248)   |  -16713480 |
-| #BLACK        | Black       | RGB(0, 0, 0)       |  -16777216 |
-| #BLUE         | Blue        | RGB(0, 0, 248)     |  -16776968 |
-| #CYAN         | Cyan        | RGB(0, 248, 248)   |  -16713480 |
-| #FUCHSIA      | Fuchsia     | RGB(248, 0, 248)   |    -524040 |
-| #GRAY         | Gray        | RGB(128, 128, 128) |   -8355712 |
-| #GREEN        | Green       | RGB(0, 128, 0)     |   -1674448 |
-| #LIME         | Lime        | RGB(0, 248, 0)     |  -16713728 |
-| #MAGENTA      | Magenta     | RGB(248, 0, 248)   |    -524040 |
-| #MAROON       | Maroon      | RGB(128, 0, 0)     |   -8388608 |
-| #NAVY         | Navy blue   | RGB(0, 0, 128)     |  -16777088 |
-| #OLIVE        | Olive       | RGB(128, 128, 0)   |   -8355840 |
-| #PURPLE       | Purple      | RGB(128, 0, 128)   |   -8388480 |
-| #RED          | Red         | RGB(248, 0, 0)     |    -524288 |
-| #SILVER       | Silver      | RGB(192, 192, 192) |   -4144960 |
-| #TEAL         | Teal        | RGB(0, 128, 128)   |  -16744320 |
-| #WHITE        | White       | RGB(248, 248, 248) |    -460552 |
-| #YELLOW       | Yellow      | RGB(248, 248, 0)   |    -460800 |
+| `#BLACK`        | [[http://kland.smilebasicsource.com/i/ebtjt.png]] | RGB(  0,  0,  0)       |  -16777216 |
+| `#MAROON`       | [[http://kland.smilebasicsource.com/i/qikqw.png]] | RGB(128,  0,  0)     |   -8388608 |
+| `#RED`          | [[http://kland.smilebasicsource.com/i/gjfzn.png]] | RGB(248,  0,  0)     |    -524288 |
+| `#GREEN`        | [[http://kland.smilebasicsource.com/i/djbuf.png]] | RGB(  0,128,  0)     |   -1674448 |
+| `#LIME`         | [[http://kland.smilebasicsource.com/i/fstiy.png]] | RGB(  0,248,  0)     |  -16713728 |
+| `#OLIVE`        | [[http://kland.smilebasicsource.com/i/jgksb.png]] | RGB(128,128,  0)   |   -8355840 |
+| `#YELLOW`       | [[http://kland.smilebasicsource.com/i/jmzug.png]] | RGB(248,248,  0)   |    -460800 |
+| `#NAVY`         | [[http://kland.smilebasicsource.com/i/ltnfm.png]] | RGB(  0,  0,128)     |  -16777088 |
+| `#BLUE`         | [[http://kland.smilebasicsource.com/i/xtyru.png]] | RGB(  0,  0,248)     |  -16776968 |
+| `#PURPLE`       | [[http://kland.smilebasicsource.com/i/vbrvn.png]] | RGB(128,  0,128)   |   -8388480 |
+| `#FUCHSIA`, `#MAGENTA` | [[http://kland.smilebasicsource.com/i/czbfc.png]] | RGB(248,  0,248) | -524040 |   
+| `#TEAL`         | [[http://kland.smilebasicsource.com/i/xcfgj.png]] | RGB(  0,128,128)   |  -16744320 |
+| `#AQUA`, `#CYAN`  | [[http://kland.smilebasicsource.com/i/wyila.png]] | RGB(  0,248,248)   |  -16713480 |
+| `#GRAY`         | [[http://kland.smilebasicsource.com/i/exeah.png]] | RGB(128,128,128) |   -8355712 |
+| `#WHITE`        | [[http://kland.smilebasicsource.com/i/nguyp.png]] | RGB(248,248,248) |    -460552 |
+| `#SILVER`       | [[http://kland.smilebasicsource.com/i/dgfse.png]] | RGB(192,192,192) |   -4144960 |
 ** Button IDs
 When getting values from [[BUTTON]](), these constants can be used to easily identify the IDs of the buttons.
 
 ```smilebasic
-VAR X% = BUTTON()
+VAR X = BUTTON()
 ' Detect if the A button is currently being pushed down using #A.
-IF X% AND #A THEN PRINT "A button is being pushed down."
+IF X AND #A THEN PRINT "A button is being pushed down."
 ```
 
 |* Constant Name | Button                          | Value |
-| #A            | A                               |    16 |
-| #B            | B                               |    32 |
-| #X            | X                               |    64 |
-| #Y            | Y                               |   128 |
-| #L            | L                               |   256 |
-| #R            | R                               |   512 |
-| #UP           | Up on D-pad                     |     1 |
-| #DOWN         | Down on D-pad                   |     2 |
-| #LEFT         | Left on D-pad                   |     4 |
-| #RIGHT        | Right on D-pad                  |     8 |
-| #ZL           | ZL on Circle-Pad Pro or new 3DS |  4096 |
-| #ZR           | ZR on Circle-Pad Pro or new 3DS |  2048 |
+| `#UP`           | Up on D-pad                     |     1 |
+| `#DOWN`         | Down on D-pad                   |     2 |
+| `#LEFT`         | Left on D-pad                   |     4 |
+| `#RIGHT`        | Right on D-pad                  |     8 |
+| `#A`            | A                               |    16 |
+| `#B`            | B                               |    32 |
+| `#X`            | X                               |    64 |
+| `#Y`            | Y                               |   128 |
+| `#L`            | L                               |   256 |
+| `#R`            | R                               |   512 |
+| `#ZR`           | ZR on Circle-Pad Pro or new 3DS |  2048 |
+| `#ZL`           | ZL on Circle-Pad Pro or new 3DS |  4096 |
+
 ** Background Tiles Attributes
 When setting a tiles in backgrounds, attributes can be applied to the tiles to have them appear differently. Is
 used by adding them to tile IDs.
