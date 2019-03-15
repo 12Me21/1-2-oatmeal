@@ -14,3 +14,5 @@ PRINT SQR(7)*SQR(7) '7
 ** Errors
 |*Error|Cause|
 |`Out of range`|`number#` is less than 0|
+|`Type mismatch`|Input was a string or array|
+|`Illegal function call`|Wrong number of inputs/outputs|
