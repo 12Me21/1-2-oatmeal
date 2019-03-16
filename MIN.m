@@ -4,7 +4,7 @@ Finds the smallest number in a list or array.
 ** Syntax
 ```sbsyntax
 MIN number_1, number_2 OUT minimum
-MIN number_1, number_2, ... OUT minimum#
+MIN number_1#, number_2#, ... OUT minimum#
 MIN array[] OUT minimum
 ```
 |*Input|Description|
