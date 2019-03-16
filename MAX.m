@@ -4,7 +4,7 @@ Finds the largest number in a list or array.
 ** Syntax
 ```sbsyntax
 MAX number_1, number_2 OUT maximum
-MAX number_1, number_2, ... OUT maximum#
+MAX number_1#, number_2#, ... OUT maximum#
 MAX array[] OUT maximum
 ```
 |*Input|Description|
