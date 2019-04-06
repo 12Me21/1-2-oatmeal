@@ -2,6 +2,7 @@
 #+TITLE
 Pauses a sprite. While paused, no [[SPANIM]] animations will play (including ones started after SPSTOP was called) until the sprite is unpaused with [[SPSTART]], when all animations will continue playing.
 It is not possible to directly check if a sprite is paused, but [[SPCHK]] will return `0` even if there are animations set.
+SPSTOP does not end currently playing animations. To end an animation, you should set the value of the property that is being animated. (For example, calling [[SPROT]] will stop the angle of that sprite from animating)
 ** Syntax
 ``` sbsyntax
 SPSTOP [sprite%]
