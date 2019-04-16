@@ -2,7 +2,7 @@
 #+TITLE
 Adds a value to a variable. Works with both numbers and strings.
 `INC variable, amount` is a shorter way of writing `variable = variable + amount` (similar to `variable +=​ amount` in other languages).
-`INC` also works with strings, similar to [[PUSH]]. Unlike PUSH, INC will work on read-only strings.
+`INC` also works with strings, similar to [[PUSH]]. Unlike PUSH, INC will work on variables that contain read-only strings (replacing their value with a copy).
 ** Syntax
 ``` sbsyntax
 INC number_variable [, amount]
