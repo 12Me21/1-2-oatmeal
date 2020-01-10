@@ -2,6 +2,7 @@
 #+TITLE
 Read-only variable, storing the write position in the mic buffer.
 Ranges from 0 to [[MICSIZE]]-1, or -1 if [[MICSIZE]] is 0.
+Set to 0 when the mic is disabled.
 Updates approximately 2000 times per second.
 Can be used as a more accurate timer than [[MILLISEC]].
 ** Examples
