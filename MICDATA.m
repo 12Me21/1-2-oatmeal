@@ -19,6 +19,12 @@ WHILE 1
  ?MICDATA()
 WEND
 ```
+** Possible Errors
+|*Error|Cause|
+|`Mic is not available`|Mic is not enabled (Use [[XON MIC]] first)|
+|`Out of range`|`position%` is negative|
+|`Type mismatch`|Wrong argument type|
+|`Illegal function call`|Wrong number of arguments|
 ** See Also
 + [[MICSTART]]
 + [[MICSAVE]]
