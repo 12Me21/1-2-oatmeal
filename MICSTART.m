@@ -3,7 +3,7 @@
 Start recording audio.
 The mic must be enabled with [[XON MIC]] first.
 [[MICSIZE]] will be set to the number of samples that can fit in the sample buffer.
-While recording, [[MICPOS]] will be set to the write position in the buffer.
+While recording, [[MICPOS]] will be set to the write position in the buffer (starts at 0).
 [[MICSTOP]] or [[XOFF MIC]] will stop the recording.
 ** Syntax
 ``` sbsyntax
@@ -34,8 +34,8 @@ The maximum values appear to be hardcoded and don't actually allow the full buff
 |10909.3|10910|24|12|
 |16364|16360|16|8|
 |32728|32730|8|4|
-}
-If `length#` is NaN, it records for 0 seconds, MICSIZE is set to 0, etc.|
+}When the recording ends, MICPOS is set to MICSIZE-1
+If `length#` is NaN, it records for 0 seconds and MICSIZE is set to 0. MICPOS is set to 0 but quickly changes to -1|
 ** Examples
 Start recording at the highest quality setting:
 ``` smilebasic
@@ -51,7 +51,6 @@ WEND
 |`Out of range`|Argument out of range|
 |`Type mismatch`|Wrong argument type|
 |`Illegal function call`|Wrong number of arguments|
-
 ** See Also
 + [[MICSAVE]]
 + [[MICDATA]]
