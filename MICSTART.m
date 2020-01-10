@@ -34,7 +34,8 @@ The maximum values appear to be hardcoded and don't actually allow the full buff
 |10909.3|10910|24|12|
 |16364|16360|16|8|
 |32728|32730|8|4|
-}|
+}
+If `length#` is NaN, it records for 0 seconds, MICSIZE is set to 0, etc.|
 ** Examples
 Start recording at the highest quality setting:
 ``` smilebasic
@@ -44,6 +45,13 @@ WHILE 1
  ?MICDATA(MICPOS)
 WEND
 ```
+** Possible Errors
+|*Error|Cause|
+|`Mic is not available`|Mic is not enabled (Use [[XON MIC]] first)|
+|`Out of range`|Argument out of range|
+|`Type mismatch`|Wrong argument type|
+|`Illegal function call`|Wrong number of arguments|
+
 ** See Also
 + [[MICSAVE]]
 + [[MICDATA]]
