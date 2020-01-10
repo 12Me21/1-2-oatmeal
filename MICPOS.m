@@ -1,10 +1,11 @@
 #+NAVIGATION
 #+TITLE
 Read-only variable, storing the write position in the mic buffer.
-Ranges from 0 to [[MICSIZE]]-1, or -1 if [[MICSIZE]] is 0.
+Ranges from 0 to [[MICSIZE]]-1.
 Set to 0 when the mic is disabled.
-Updates approximately 2000 times per second.
-Can be used as a more accurate timer than [[MILLISEC]].
+When a recording ends (without MICSTOP), it is set to MICSIZE-1.
+MICPOS is updated after every statement, but the 3DS records 16 samples at a time so it's always 1 less than a multiple of 16.
+The maximum update rate is 32728/16 = 2039.25 times per second, so it can be used as a more accurate timer than [[MILLISEC]].
 ** Examples
 Display MICPOS with a sprite
 ``` smilebasic
